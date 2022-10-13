@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Compositor Picker</title>
+	<link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+	<div class="head">
+		<h1>Escolha o compositor de acordo com a musica</h1>
+
+		<audio controls id="audio">
+			<source src="./assets/music/Bach/Aaron_Dunn_-_Goldberg_Variations_BWV_988_-_Aria.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+
+		<!-- <label for="songs">Escola o tipo de musica:</label>
+		<select name="songs" id="songs">
+		<option value="pno">Piano</option>
+		<option value="orq">Orquesta</option>
+		</select>
+	
+		<button>Escutar</button>
+		<button>Pausar</button>-->
+		<!-- <br><br> -->
+		<!-- <button id="restart">Recomeçar Jogo</button> -->
+	</div>
+
+	<div class="row">
+		<!-- Compositor 1 -->
+		<div class="column">
+		  	<div class="card">
+			  <image id="img1" src="./assets/sprite/Bach.png" style='height: 100%; width: 100%; object-fit: contain'>
+				<h3 id="nome1" >Nome</h3>
+				<P id="periodo1" >Periodo: ---</P>
+				<P id="caracteristica1" style="text-align:left;" >Caracteristica: ---</P>
+				<button id="escolha1" >Escolher</button>
+			</div>
+		</div>
+		<!-- Compositor 2 -->
+		<div class="column">
+		  	<div class="card">
+				<image id="img2" src="./assets/sprite/Beethoven.png" style='height: 100%; width: 100%; object-fit: contain'></image>
+				<h3 id="nome2" >Nome</h3>
+				<P id="periodo2" >Periodo: ---</P>
+				<P id="caracteristica2"  style="text-align:left;" >Caracteristica: ---</P>
+				<button id="escolha2" >Escolher</button>
+			</div>
+		</div>
+		<!-- Compositor 3 -->
+		<div class="column">
+		  	<div class="card">
+				<image id="img3" src="./assets/sprite/Chopin.png" style='height: 100%; width: 100%; object-fit: contain'></image>
+				<h3 id="nome3" >Nome</h3>
+				<P id="periodo3" >Periodo: ---</P>
+				<P id="caracteristica3"  style="text-align:left;"  >Caracteristica: ---</P>
+				<button id="escolha3" >Escolher</button>
+			</div>
+		</div>
+	  </div>
+	  
+	  
+	  <!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+		<h1 id="resultaudoTitle" >Resultado:</h1>
+		<p id="resultaudo">Some text in the Modal..</p>
+
+
+		<label for="dificuldade">Mudar Dificuldade</label>
+		<select name="dif" id="dificuldade">
+		<option value="0">Iniciante</option>
+		<option value="1">Iniciado</option>
+		<option value="2">Iniciador</option>
+		</select>
+		<br><br>
+		<button onclick="recomecarJogo()" >Recomeçar</button>
+		</div>
+	
+	</div>
+</body>
+<script src="./js/compositor.js"></script>
+<script src="./js/index.js"></script>
+</html>

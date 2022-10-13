@@ -1,9 +1,0 @@
-#game{
-    box-shadow: black 2px 2px 5px; /*elevate our canvas and add shadow*/
-}
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
