@@ -6,6 +6,7 @@ class gridCell{
         this.centerX =  CONFIG.gridSizeRow*row +10
         this.centerY =  CONFIG.gridSizeCol*col +10
 
+        this.hasApple = false
     }
 
     draw(ctx) {
@@ -15,5 +16,16 @@ class gridCell{
         ctx.lineWidth = 2
         ctx.strokeStyle = '#003300';
         ctx.stroke()
+
+        if(this.hasApple){
+            ctx.fillStyle = 'red';
+            ctx.fill();
+        }
+    }
+
+    createRandomApple(){
+        this.appleCol = Math.floor(getRandomArbitrary(0,10))
+        this.appleRow = Math.floor(getRandomArbitrary(0,10))
+
     }
 }
