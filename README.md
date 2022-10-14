@@ -19,8 +19,7 @@ Muitas pessoas olham para música clássica com um olhar muito genérico. Pensam
 Esse jogo consiste basicamente em escutar uma música e tentar avinhar qual o compositor com base nas características fornecidas.
 
 ### Fluxo do jogo
-
-![Untitled](Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled.png)
+![Untitled](https://github.com/arthurxvtv/T1-INF1407/blob/main/Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled.png)
 
 # Especificações
 
@@ -29,7 +28,7 @@ Esse jogo consiste basicamente em escutar uma música e tentar avinhar qual o co
 > Pedir a identificação do usuário no formato de email utilizado em Priplanus e somente permitir ao jogador jogar se o email for válido
 > 
 
-![login.html](Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%201.png)
+![login.html](https://github.com/arthurxvtv/T1-INF1407/blob/main/Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%201.png)
 
 login.html
 
@@ -58,7 +57,7 @@ function logar() {
 > Manipular no mínimo dois objetos do tipo imagem com duas imagens diferentes em cada objeto
 > 
 
-![Untitled](Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%202.png)
+![Untitled](https://github.com/arthurxvtv/T1-INF1407/blob/main/Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%202.png)
 
 Essas 3 imagens referentes aos compositores são manipuladas dentro do arquivo index.js com intuito de exibir dinamicamente os compositores.
 
@@ -132,7 +131,7 @@ if(usuarioEscolheu == correto){
 
 Ao perder ou ganhar o jogo um modal se abre onde o usuário pode recomeçar escolhendo uma nova dificuldade
 
-![modal dentro de index.html](Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%203.png)
+![modal dentro de index.html](https://github.com/arthurxvtv/T1-INF1407/blob/main/Programac%CC%A7a%CC%83o%20para%20Web%20-%20T1%2066445e6dc6d44f7d980ece4665f7f925/Untitled%203.png)
 
 modal dentro de index.html
 
