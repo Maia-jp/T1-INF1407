@@ -11,7 +11,7 @@ function logar() {
     if (!regex.test(user)){
         alert("Ohhh nao, seu email nao eh valido!")
     }else{
-        window.open('./index.html')
+        window.open('./game.html')
     }
     
     console.log(user)
